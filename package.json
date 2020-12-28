@@ -1,13 +1,21 @@
 {
   "name": "devcamper_api",
   "version": "1.0.0",
-  "description": "Devcamper backend api",
-  "main": "server.js",
+  "description": "Bootcamp API",
+  "main": "index.js",
   "scripts": {
-    "start": "SET NODE_ENV = production & node server",
-    "dev": "nodemon server"
+    "start": "SET NODE_ENV = production & node index",
+    "dev": "nodemon index"
   },
-  "author": "Hildweig featured Traversy Media",
+  "keywords": [
+    "bootcamp",
+    "API",
+    "Express",
+    "Node.js",
+    "MongoDB",
+    "Backend"
+  ],
+  "author": "Hildweig",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
